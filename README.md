@@ -1,4 +1,4 @@
-# My Awesome Project
+# Projeto Sistema Solar
 
 # Contexto
 Este projeto trata-se de uma aplicação em React com criação de componentes de classe e passagem de props. Essa aplicação simulará uma visualização do Sistema Solar. 
