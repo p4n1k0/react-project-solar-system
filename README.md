@@ -23,11 +23,11 @@
 # Orientações
 
 <details>
-  <summary><strong>‼️ Para testar o projeto</strong></summary><br />
+  <summary><strong>‼️ Para visualizar o projeto</strong></summary><br />
 
   1. Clone o repositório
 
-  - Use o comando: `git clone git@github.com:p4n1k0/react-project-solar-system.git.
+  - Use o comando: `git clone git@github.com/p4n1k0/react-project-solar-system.git.
   - Entre na pasta do repositório que você acabou de clonar:
     - `cd react-project-solar-system`
 
