@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './css/Title.css'
 
 class Title extends Component {
   render() {
     const { headline } = this.props;
-    return (<h2>{headline}</h2>);
+    return (
+      <div className="title">
+        <h2>{headline}</h2>
+      </div>
+    );
   }
 }
 

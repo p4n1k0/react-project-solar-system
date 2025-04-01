@@ -2,19 +2,22 @@ import React, { Component } from 'react';
 import Title from './Title';
 import planets from '../data/planets';
 import PlanetCard from './PlanetCard';
+import './css/SolarSystem.css';
 
 class SolarSystem extends Component {
   render() {
     return (
-      <div data-testid="solar-system">
-        <Title headline="planetas" />
-        { planets.map(({ name, image }) => (<PlanetCard
-          key={ name }
-          planetName={ name }
-          planetImage={ image }
-        />
-        ))}
-      </div>);
+      <div className="solarSystem" data-testid="solar-system">
+        <div>
+          <Title headline="Planetas" />
+        </div>
+        <section className="PlanetCard">
+          {planets.map((e) => (
+            <PlanetCard planetName={e.name} planetImage={e.image} key={e.name} />
+          ))}
+        </section>
+      </div>
+    );
   }
 }
 

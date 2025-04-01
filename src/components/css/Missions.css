@@ -1,0 +1,7 @@
+.Missions {
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: 25px;
+}
