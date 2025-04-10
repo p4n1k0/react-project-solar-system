@@ -39,6 +39,8 @@
   
   - `npm start`
 
+  3. https://gtsolarsystem.surge.sh
+
 </details>
 
 <details>
