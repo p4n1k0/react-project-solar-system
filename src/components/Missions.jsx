@@ -14,11 +14,11 @@ class Missions extends Component {
         <section className="Missions">
           {missions.map((e) => (
             <MissionCard
-              name={e.name}
-              year={e.year}
-              country={e.country}
-              destination={e.destination}
-              key={e.name}
+              name={ e.name }
+              year={ e.year }
+              country={ e.country }
+              destination={ e.destination }
+              key={ e.name }
             />
           ))}
         </section>
