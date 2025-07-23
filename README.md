@@ -45,6 +45,7 @@
   <summary><strong>:convenience_store: Desenvolvimento </strong></summary><br />
 
   Desenvolvi uma aplicação em React com criação de componentes de classe e passagem de props. Essa aplicação simulou uma visualização do nosso Sistema Solar.
+  Obs: testes criados pelo time da trybe.
 </details>
 
 <details>
